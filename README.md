@@ -112,8 +112,4 @@ Trained using Flickr8k dataset
 
 Style examples from Van Gogh’s Starry Night
 
-PyTorch + Streamlit implementation by [Your Name]
-
-yaml
-Copy
-Edit
+PyTorch + Streamlit implementation by Prajwal Bagchi
