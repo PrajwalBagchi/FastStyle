@@ -18,29 +18,27 @@ FastStyle+ is a real-time neural style transfer model re-implemented in PyTorch,
 
 ## 📁 Directory Structure
 
+```
 fast-style-transfer/
 ├── Data/
-│ ├── Train/ # Training images (from Flickr8k)
-│ ├── Style/ # Style image (e.g., starry_night.jpg)
-│ └── Output/ # Stylized output samples
+│   ├── Train/          # Training images (from Flickr8k)
+│   ├── Style/          # Style image (e.g., starry_night.jpg)
+│   └── Output/         # Stylized output samples
 ├── Models/
-│ ├── Final/ # Final saved .pth model
-│ └── Checkpoints/ # Epoch-wise model checkpoints
+│   ├── Final/          # Final saved .pth model
+│   └── Checkpoints/    # Epoch-wise model checkpoints
 ├── src/
-│ ├── config.py # Configuration file
-│ ├── loss.py # Style/content/TV loss
-│ ├── model.py # TransformerNet definition
-│ ├── trainer.py # Training loop
-│ ├── utils.py # Helper functions
-│ └── vgg.py # VGG19 perceptual feature extractor
-├── inference.py # Image stylization script
-├── video_stylizer.py # Video stylization script
-├── README.md # You're here!
-└── requirements.txt # All dependencies
-
-yaml
-Copy
-Edit
+│   ├── config.py       # Configuration file
+│   ├── loss.py         # Style/content/TV loss
+│   ├── model.py        # TransformerNet definition
+│   ├── trainer.py      # Training loop
+│   ├── utils.py        # Helper functions
+│   └── vgg.py          # VGG19 perceptual feature extractor
+├── inference.py        # Image stylization script
+├── video_stylizer.py   # Video stylization script
+├── README.md           # You're here!
+└── requirements.txt    # All dependencies
+```
 
 ---
 
